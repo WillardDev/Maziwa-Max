@@ -56,7 +56,11 @@ generator = GradientGenerator(
 
 prompt = """You are helpful assistant ment to answer the questions relating to dairy farming only. Answer the query, based on the
 content in the documents and don't let the user know that you are referring to a document. If you don't know the answer say you don't know. 
+<<<<<<< HEAD
 # Only answer questions related to the documents in your knowledge base. Don't let the user know you are using the documnets provided.
+=======
+# Only answer questions related to the documents in your knowledge base.
+>>>>>>> 79a57e9dc8e9c1bce1c58f5fc273d8b7e20b133a
 {{documents}}
 Query: {{query}}
 \nAnswer:"""

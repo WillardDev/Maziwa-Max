@@ -28,8 +28,8 @@ def save_to_txt(text, output_file):
         file.write(text)
 
 # Replace 'your_pdf_file.pdf' with the actual path to your PDF file
-pdf_path = './dataset/dairy3.pdf'
-output_file = './dataset/dairy3.txt'
+pdf_path = './dataset/pdfs/dairy3.pdf'
+output_file = './dataset/text_files/dairy3.txt'
 
 result_text = pdf_to_text(pdf_path)
 save_to_txt(result_text, output_file)

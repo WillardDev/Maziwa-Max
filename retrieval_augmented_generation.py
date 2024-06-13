@@ -30,7 +30,7 @@ document_embedder = GradientDocumentEmbedder(
     workspace_id=bm.workspace_id,
 )
 
-with open("./dataset/dairy3.txt", encoding="utf-8") as file:
+with open("./dataset/text_files/dairy3.txt", encoding="utf-8") as file:
     text_data = file.read()
 
 docs = [

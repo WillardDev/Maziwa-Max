@@ -21,4 +21,4 @@ def pdf_to_json(pdf_path, json_path, chunk_size=1):
     with open(json_path, 'w') as json_file:
         json_file.write(json_data)
 
-pdf_to_json('./dairy3.pdf', 'dairy3.json', chunk_size=500)
+pdf_to_json('./dataset/pdfs/dairy3.pdf', 'dairy3.json', chunk_size=500)

@@ -1,0 +1,31 @@
+.header {
+    text-align: center;
+}
+.user-message {
+    background-color: #999999;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    float: right;
+    display: inline-block;
+}
+.bot-message {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.input-box {
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+}
+.input-box input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}

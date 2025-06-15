@@ -43,8 +43,8 @@ MaziwaMax/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/maziwamax.git
-cd maziwamax
+git clone https://github.com/WillardDev/Maziwa-Max.git
+cd Maziwa-Max
 ```
 
 ### 2. Create Virtual Environment
